@@ -1,4 +1,4 @@
-# YOLOv8 Object Detection and Segmentation Project
+# YOLOv8 Object Detection and Segmentation Project (Working with Roboflow)
 
 This repository contains code for object detection and segmentation using the YOLOv8 model. The project leverages Google Colab for training and inference tasks, with datasets managed via Roboflow.
 
@@ -48,7 +48,7 @@ Images and videos have been used for object detection and segmentation. The YOLO
 
 # Algorithms Used
 
-**YOLOv8 Model**: The YOLO (You Only Look Once) v8 model is used for both object detection and segmentation.
-**Image Preprocessing**: Images are preprocessed to fit the input size requirements of the YOLOv8 model.
-**Inference**: The YOLOv8 model performs inference to detect objects and segment images/videos.
-**Post-processing**: Results are post-processed to display bounding boxes and segmentation masks.
+- **YOLOv8 Model**: The YOLO (You Only Look Once) v8 model is used for both object detection and segmentation.
+- **Image Preprocessing**: Images are preprocessed to fit the input size requirements of the YOLOv8 model.
+- **Inference**: The YOLOv8 model performs inference to detect objects and segment images/videos.
+- **Post-processing**: Results are post-processed to display bounding boxes and segmentation masks.
