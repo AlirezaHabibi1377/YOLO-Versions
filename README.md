@@ -35,21 +35,22 @@ ROOT_DIR = '..path to your project directory..'
 ```
 
 # Object Detection and Segmentation
+Images and videos have been used for object detection and segmentation. The YOLOv8 model was applied to the Football Player dataset on the Roboflow website for just 5 epochs. Therefore, it should be applied for more epochs to achieve higher and better overall accuracy.
 
+## Input and Output
 
-# Input and Output
+### Input
 
-## Input:
+- **Images**: JPG or PNG format images are used for object detection and segmentation. Example image available at `input/dogs_n_cars.jpg`.
+- **Videos**: MP4 format videos are used for object detection and segmentation. Example video available at `input/test_vid.mp4`.
+- **Datasets**: Custom datasets for training are managed via Roboflow. You can find the dataset [here](https://universe.roboflow.com/bronkscottema/football-player-detection).
 
-Images: JPG or PNG format images for object detection and segmentation. In this repository please refer to the input/dogs_n_cars.jpg file.
-Videos: MP4 format videos for object detection and segmentation. In this repository please refer to the input/test_vid.mp4
-Datasets: Custom datasets for training, managed via Roboflow. In this repository please refer to the 
+### Output
 
-## Output:
+- **Predicted Images**: Results from object detection are saved in the `runs/detect/predict` directory.
+- **Predicted Videos**: Results from object segmentation are saved in the `runs/segment/predict` directory.
+- **Training Results**: Model weights and logs from training are saved in the `runs/detect/train` directory.
 
-Predicted Images: Saved in the runs/detect/predict directory for object detection.
-Predicted Videos: Saved in the runs/segment/predict directory for object segmentation.
-Training Results: Saved in the runs/detect/train directory, including the model weights and logs.
 
 # Algorithms Used
 
