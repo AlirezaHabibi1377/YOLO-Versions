@@ -31,7 +31,7 @@ ROOT_DIR = '..path to your project directory..'
 # Object Detection and Segmentation
 Images and videos have been used for object detection and segmentation. The YOLOv8 model was applied to the Football Player dataset on the Roboflow website for just 5 epochs. Therefore, it should be applied for more epochs to achieve higher and better overall accuracy.
 
-# Algorithms Used
+# Algorithms
 
 - **YOLOv8 Model**: The YOLO (You Only Look Once) v8 model is used for both object detection and segmentation.
 - **Image Preprocessing**: Images are preprocessed to fit the input size requirements of the YOLOv8 model.
