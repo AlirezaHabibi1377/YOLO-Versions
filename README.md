@@ -1,4 +1,4 @@
-# YOLOv8 Object Detection and Segmentation Project (Working with Roboflow)
+# YOLOv8 Object Detection and Semantic Segmentation Project (Working with Roboflow)
 
 This repository contains code for object detection and segmentation using the YOLOv8 model. The project leverages Google Colab for training and inference tasks, with datasets managed via Roboflow.
 
