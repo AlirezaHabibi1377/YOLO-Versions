@@ -46,8 +46,7 @@ Images and videos have been used for object detection and segmentation. The YOLO
 - **Predicted Image for Object Segmentation**: Results from object detection are saved in the `output.zip8/dogs_n_cars-segmentation.jpg` directory.
 ![Output Image](dogs_n_cars-segmentation.jpg)
 - **Training Results of Football Player Detection Coputer Vision**: Model weights and logs from training are saved in the `output.zip/football-player-detection` directory.
-
-Two of Detected Football Players:
+Two of the Detected Football Players:
 ![Output Image](Capture_PNG_jpg.rf.ca45ab0e877b872a97df437da0a08d4b.jpg)
 ![Output Image](Capture4_PNG_jpg.rf.8dd53df02c523cce44417263844c751d.jpg)
 
